@@ -13,7 +13,7 @@ Arvesta 30 kuni 45 minutiga. Tulemuseks on üks kaust nelja kontekstifaili ja ko
 ## Mida töötoas ehitame
 
 ```text
-Ebia connector -> ettevõtted
+ettevõtete andmebaasi MCP connector -> ettevõtted
                     |
                     v
 uurija Skill -> kontrollitud uuring

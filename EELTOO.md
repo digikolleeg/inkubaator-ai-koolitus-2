@@ -42,20 +42,18 @@ Tee sellesse kausta fail test.md, kus on üks lause.
 
 Kui `test.md` ilmub kausta, on tehniline osa korras. Võid testfaili kustutada.
 
-Registreerimislehel mainitud üldise 14-päevase tasuta prooviperioodiga ei saa praegu arvestada. Claude Pro avalik kuuhind on juhendi kirjutamise hetkel 20 USA dollarit, millele võib lisanduda kohalik maks. Kontrolli hetkehinda [Anthropicu hinnalehelt](https://claude.com/pricing). Kuupaketi saad pärast töötuba lõpetada.
-
-Kui kasutad juba Codexi rakendust, saad sama kausta ja samu markdown-faile ka seal kasutada. Kohapealne juhend ja ekraanipildid on siiski Claude Coworki järgi, seega on Claude Desktop kõige lihtsam ühine tee.
+Töötoa näited teen Coworkis, kuid sama kausta ja samu markdown-faile saad kasutada ka Codexis. Mõlemad on täiesti sobivad.
 
 ## 2. Tee müügiagendi konteksti-intervjuu
 
-Intervjuu aitab sul sõnastada, mida sa müüd, kellele, mis ostupäästikul ja kuidas sinu nimel kirjutada. AI võib sinuga valikuid arutada ja pakkuda variante. Kui sa ei tea veel täpset nišši, on see täiesti normaalne.
+Intervjuu aitab sul sõnastada, mida sa müüd, kellele, mis olukorras klient sinu abi vajab ja kuidas sinu nimel kirjutada. AI võib sinuga valikuid arutada ja pakkuda variante.
 
 Erinevad mudelid viivad sama intervjuu natuke erinevalt läbi. Kui tahad, proovi Claude'i, ChatGPT-d või Geminit ja vali see vestlus, kus mõtete vahetamine töötab sinu jaoks kõige paremini.
 
 ### Lihtsaim tee: töötab igas AI vestluses
 
-1. Ava [kopeeritav intervjuu](eeltoo/intervjuu-prompt.md).
-2. Sealt ava puhas tekst ja kopeeri kogu intervjuu.
+1. Ava [intervjuu puhas tekst](https://raw.githubusercontent.com/digikolleeg/isiklik-kontekst/main/quick-interview.md).
+2. Vali kogu tekst ja kopeeri see.
 3. Kleebi see uue AI vestluse esimeseks sõnumiks.
 4. Lisa lõppu: `töötoa intervjuu`.
 5. Vasta üks küsimus korraga.
@@ -66,7 +64,7 @@ Erinevad mudelid viivad sama intervjuu natuke erinevalt läbi. Kui tahad, proovi
 Kui kasutad Claude Desktopi Coworki või Codexit:
 
 1. ava kaust `minu-muugiagent` ja anna rakendusele ligipääs;
-2. anna talle sama kopeeritav intervjuu;
+2. anna talle sama intervjuutekst;
 3. lisa: `töötoa intervjuu. Kirjuta valmis failid avatud kausta.`
 
 Kontrolli lõpus, et kaustas oleks neli õige nimega faili.
@@ -105,7 +103,7 @@ AI ei tunne sind paremini kui sina ise. Loe neli faili läbi ja paranda:
 
 1. faktid, mis on valed;
 2. valikud, mida sa tegelikult ei teinud;
-3. liiga kõvad reeglid, näiteks `kasuta alati sina-vormi`, kui sa ise pole selles kindel;
+3. liiga kõvad reeglid;
 4. laused, mis kõlavad turundusvahu või võõra inimesena.
 
 ## 3. Vali kolm päris ettevõtet
@@ -114,7 +112,7 @@ Laadi alla [sihtkliendid.csv](eeltoo/sihtkliendid.csv) ja täida kolm rida.
 
 Vali ettevõtted, kellele sa päriselt võiksid kirjutada. Kui sul pole veel kindlat sihtrühma, vali kolm ettevõtet sellest nišist, mida tahad esimesena katsetada.
 
-Töötoas ühendame konteksti, uurija Skilli, Ebia connectori ja kirjutaja Skilli üheks töövooks. Nende kolme ettevõtte peal saad kohe näha, kas tulemus on kasutatav.
+Töötoas ühendame konteksti, uurija Skilli, ettevõtete andmebaasi MCP connectori ja kirjutaja Skilli üheks töövooks. Nende kolme ettevõtte peal saad kohe näha, kas tulemus on kasutatav.
 
 ## Võta kaasa
 
