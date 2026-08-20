@@ -67,7 +67,8 @@ Kui kasutad Claude Desktopi Coworki või Codexit:
 2. anna talle sama intervjuutekst;
 3. lisa: `töötoa intervjuu. Kirjuta valmis failid avatud kausta.`
 
-Kontrolli lõpus, et kaustas oleks neli õige nimega faili.
+Kontrolli lõpus, et neli faili oleksid otse kaustas `minu-muugiagent`.
+Kui AI tegi neile alamkausta, tõsta failid kausta juurde tagasi.
 
 ### Kui tahad Skilli kohe proovida
 
